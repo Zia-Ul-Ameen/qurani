@@ -1,0 +1,97 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and items used when running/
+# debugging. You should check this folder in to source control to share with
+# other developers.
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+__metadata
+build/
+node_modules/
+package-config
+pubspec.lock
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/out/
+.gradle/
+build/
+captures/
+local.properties
+**/android/**/bundle/
+**/android/**/externalNativeBuild/
+
+# iOS/macOS related
+**/ios/DerivedData/
+**/ios/Pods/
+**/ios/.generated/
+**/ios/.last_build_id
+**/ios/Runner/GeneratedFiles/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/ephemeral/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/project.xcworkspace
+**/ios/Runner/Pods/
+**/ios/Runner/.last_build_id
+**/ios/.idea/
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+**/*.pbxuser
+**/DerivedData/
+**/Pods/
+**/.generated/
+**/.last_build_id
+**/project.xcworkspace
+**/Pods/
+**/.last_build_id
+**/.idea/
+
+# Symbols and Crashlytics
+app.map
+app.tip
+**/ios/Flutter/App.framework/App
+**/ios/Flutter/App.framework/Info.plist
+**/ios/Flutter/App.framework/_CodeSignature/
+**/ios/Flutter/App.framework/flutter_assets/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
