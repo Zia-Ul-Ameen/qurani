@@ -1,4 +1,4 @@
-name: quran_app
+name: qurani
 description: A production-ready Quran mobile application.
 publish_to: 'none'
 version: 1.0.0+1
@@ -50,6 +50,14 @@ dev_dependencies:
   integration_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.webp"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.webp"
 
 flutter:
   uses-material-design: true
@@ -57,6 +65,7 @@ flutter:
   assets:
     - assets/fonts/
     - assets/images/
+    - assets/logo.webp
 
   fonts:
     - family: KFGQPCUthmanTaha

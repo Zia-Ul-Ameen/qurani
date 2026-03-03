@@ -28,20 +28,20 @@ void main() async {
 
   runApp(
     const ProviderScope(
-      child: QuranApp(),
+      child: QuraniApp(),
     ),
   );
 }
 
-class QuranApp extends ConsumerWidget {
-  const QuranApp({super.key});
+class QuraniApp extends ConsumerWidget {
+  const QuraniApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final themeProvider = ref.watch(effectiveThemeProvider);
 
     return MaterialApp.router(
-      title: 'Quran App',
+      title: 'qurani',
       debugShowCheckedModeBanner: false,
       
       // Routing

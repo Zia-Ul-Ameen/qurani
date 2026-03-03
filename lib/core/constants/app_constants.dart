@@ -54,7 +54,7 @@ class AppConstants {
   static const String audioStorageSubPath = 'quran_audio';
 
   // App info
-  static const String appName = 'Quran';
+  static const String appName = 'qurani';
   static const String hasanatDisclaimer =
       'Hasanāt count is an estimate based on letter count (1 letter = 10 rewards). True reward is with Allah.';
 
